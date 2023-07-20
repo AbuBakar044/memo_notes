@@ -44,6 +44,13 @@ dev_dependencies:
     sdk: flutter
   build_runner: ^2.3.3
   hive_generator: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/notes_keeping.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
   
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
